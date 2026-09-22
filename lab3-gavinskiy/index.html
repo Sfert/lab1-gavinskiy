@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Навчальний профіль</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">>
+<body>
+  <header class="site-header">
+    <p class="brand">Навчальний профіль</p>
+    <nav aria-label="Основна навігація">
+      <a href="#about">Про мене</a>
+      <a href="#projects">Проєкти</a>
+      <a href="#contact">Контакт</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section id="about" class="profile">
+      <p class="eyebrow">Портфоліо</p>
+      <h1>Олена Коваль</h1>
+      <p class="lead">Створюю навчальні вебсторінки із семантичною структурою.</p>
+      <div class="details">
+        <p class="note">Цей абзац вкладений у додатковий контейнер.</p>
+      </div>
+
+      <h2>Навички</h2>
+      <p>Список тем, які вже опрацьовано:</p>
+      <ul class="skills">
+        <li>Семантичний HTML</li>
+        <li>Посилання та зображення</li>
+        <li>Таблиці й форми</li>
+        <li>Основи CSS</li>
+        <li>Перевірка у DevTools</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Навчальні проєкти</h2>
+      <p>Кілька прикладів виконаних робіт.</p>
+
+      <article class="card featured">
+        <p class="tag">Вибраний проєкт</p>
+        <h3>Сторінка події</h3>
+        <p>Програма, форма реєстрації та контактні дані.</p>
+        <a href="https://example.com">Зовнішній приклад</a>
+      </article>
+
+      <article class="card">
+        <p class="tag">Документ</p>
+        <h3>Пам'ятка з HTML</h3>
+        <p>Короткий довідник з основними елементами.</p>
+        <a href="guide.pdf">Завантажити PDF</a>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Контактна форма</h2>
+      <p>Усі дані в цьому прикладі вигадані.</p>
+      <form>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="student@example.com" required>
+
+        <div class="choice">
+          <input id="copy" name="copy" type="checkbox">
+          <label for="copy">Надіслати копію</label>
+        </div>
+
+        <button type="button">Підготувати повідомлення</button>
+        <button type="button" disabled>Недоступна дія</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Навчальна сторінка для вправ із CSS</p>
+  </footer>
+</body>
+</html>

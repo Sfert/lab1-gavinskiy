@@ -1,0 +1,74 @@
+body {
+  color: #000000;
+  background-color: #0066ffad;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+a:hover {
+  text-decoration-thickness: 3px;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #f89d00;
+  outline-offset: 3px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.card {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+#header {
+  background-color: #333;
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+button.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.nav-list > li {
+  display: inline-block;
+}
+
+input[type="password"] {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+p::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.profile > p {
+  color: rgb(0, 255, 38);
+  font-weight: bold;
+  background-color: #dbeafe;
+  border-left: 4px solid #2563eb;
+}
+h1 {
+  color: blue;
+}
+
+h1 {
+  color: red;
+}
